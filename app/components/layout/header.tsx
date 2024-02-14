@@ -2,7 +2,7 @@
 
 import { useAuth, useUser } from "@clerk/nextjs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSign, faSignIn, faSignOut } from "@fortawesome/free-solid-svg-icons";
+import { faSignIn, faSignOut } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const { isLoaded, isSignedIn } = useUser();
